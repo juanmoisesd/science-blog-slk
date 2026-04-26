@@ -1,0 +1,30 @@
+baseURL = 'https://juanmoisesd.github.io/science-blog-slk/'
+languageCode = 'sk'
+defaultContentLanguage = 'sk'
+title = 'Vedecký blog o psychológii a neurovede'
+theme = 'hugo-PaperMod'
+
+[languages]
+    [languages.sk]
+        languageName = "Slovenčina"
+        weight = 1
+        title = "Vedecký blog o psychológii a neurovede"
+
+[params]
+    defaultTheme = 'auto'
+    [params.profileMode]
+        enabled = true
+        title = "Juan Moisés de la Serna"
+        subtitle = "Doctor v psychológii, magister v odbore neurovedy a biológia správania, univerzitný profesor a vedecký popularizátor."
+    [params.homeInfoParams]
+        Title = "Vitajte na našom vedeckom portáli"
+        Content = "Tento priestor je venovaný šíreniu poznatkov v oblasti psychológie a neurovedy pod vedením Dr. Juana Moisésa de la Sernu."
+
+[[menu.main]]
+    name = "Psychológia"
+    url = "/categories/psychologia"
+    weight = 10
+[[menu.main]]
+    name = "Neuroveda"
+    url = "/categories/neuroveda"
+    weight = 20
